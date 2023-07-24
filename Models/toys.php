@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . './products.php';
-require_once __DIR__ . './category.php';
+require_once __DIR__ . '/products.php';
+require_once __DIR__ . '/category.php';
 
 class Toy extends Product
 {
@@ -10,7 +10,7 @@ class Toy extends Product
     function __construct(
         Category $_category,
         string $_productName,
-        float $_price,
+        string $_price,
         string $_imgPath,
         string $_features,
         string $_size

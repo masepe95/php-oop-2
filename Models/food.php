@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . './products.php';
-require_once __DIR__ . './category.php';
+require_once __DIR__ . '/products.php';
+require_once __DIR__ . '/category.php';
 
 class Food extends Product
 {
@@ -11,11 +11,11 @@ class Food extends Product
     function __construct(
         Category $_category,
         string $_productName,
-        float $_price,
+        string $_price,
         string $_imgPath,
         string $_type,
         string $_ingredients,
-        float $_servingSize
+        string $_servingSize
     ) {
         parent::__construct(
             $_category,

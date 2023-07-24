@@ -2,8 +2,8 @@
 
 class Category
 {
-    protected $name;
-    protected $icon;
+    public $name;
+    public $icon;
 
     function __construct(string $_name, string $_icon)
     {
@@ -11,12 +11,12 @@ class Category
         $this->icon = $_icon;
     }
 
-    public function getName()
-    {
-        return $this->name;
-    }
-    public function getIcon()
-    {
-        return $this->icon;
-    }
+    // public function getName()
+    //     {
+    //         return $this->name;
+    //     }
+    //     public function getIcon()
+    //     {
+    //         return $this->icon;
+    //     }
 }

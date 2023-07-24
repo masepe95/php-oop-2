@@ -38,7 +38,7 @@ require_once __DIR__ . '/Models/db.php';
                         <h5 class="card-title"><?php echo $element->productName ?></h5>
                         <img class="img-fluid" src="<?php echo $element->imgPath ?>" class="card-img-top" alt="...">
                         <p class="mb-0">Tipo prodotto: <?php echo $element->type ?></p>
-                        <p class="mb-0">Ingredienti <?php echo $element->ingredients ?></p>
+                        <p class="mb-0">Ingredienti: <?php echo $element->ingredients ?></p>
                         <p class="mb-1">Porzione: <?php echo $element->servingSize ?></p>
                         <p class="mb-1"> Prezzo: <?php echo $element->price ?></p>
                         <a href="#" class="btn btn-success">Acquista</a>
